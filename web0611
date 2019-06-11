@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style type="text/css">
+        *{
+	margin: 0px;
+	padding: 0px;
+}
+.dingceng{
+	height: 31px;
+	background-color: rgb(244, 244, 244);
+
+}
+.yi{
+	position: absolute;
+	top: 8px;
+	left: 183px;
+	font-size: 12px;
+}
+.t01{
+	position: absolute;
+	top: 7px;
+	left: 331px;
+}
+.number{
+	position: absolute;
+	top: 8px;
+	left: 349px;
+	font-size: 13px;
+}
+.er{
+	position: absolute;
+	top: 8px;
+	left: 1149px;
+	font-size: 12px;
+}
+.a1{
+	position: absolute;
+	top: 8px;
+	left: 1310px;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+}
+.shu{
+	position: absolute;
+	top: 6px;
+	left: 1350px;
+	font-size: 15px;
+}
+.a2{
+	position: absolute;
+	top: 8px;
+	left: 1356px;
+	font-size: 12px;
+	color: black;
+	text-decoration: none;
+}
+.zhong{
+	height: 156px;
+	border-bottom: 3px solid red;
+}
+.t02{
+	position: absolute;
+	left: 182px;
+	top: 52px;
+	display: inline-block;
+}
+.zi{
+	position: absolute;
+	top: 70px;
+	left: 562px;   
+}
+.gjz{
+	color: rgb(198, 198, 198);
+	height: 36px;
+	width: 405px;
+	border: 2px solid red;
+}
+.sousuo{
+	width: 91px;
+	height: 40px;
+	border: 2px solid red;
+	background-color: red ;
+	color: white;
+	position: absolute;
+	top: 0px;
+	left: 406px;
+}
+.gou{
+	width: 148px;
+	height: 39px;
+	position: absolute;
+	left: 1222px;
+	top: 70px;
+	background-color: rgb(245, 245, 245);
+	border: 1px solid rgb(227, 227, 227);
+}
+.t03{
+	position: absolute;
+	top: 9px;
+	left: 26px;
+}
+.gouwu{
+	font-size: 13px;
+	position: absolute;
+	top: 10px;
+	left: 48px;
+}
+.gouwu a:link{
+	text-decoration: none;
+	color: red;
+}
+.biaoge{
+	position: absolute;
+	left: 160px;
+	top: 150px;
+}
+.biaoge ul li{
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	margin-left: 25px;
+}
+.biaoge ul a:link li{
+	text-decoration: none;
+	color: black;
+}
+.biaoge ul a:hover li{
+	background-color: red;
+	color: white;
+	border-radius:5px 5px 5px 5px;
+}
+.dang{
+	font-size: 15px;
+	position: absolute;
+	left: 35px;
+	top: 29px
+}
+.tu04{
+	position: absolute;
+	left: 34px;
+	top: 82px;
+}
+.quan{
+	position: absolute;
+	left: 77px;
+	top: 64px
+}
+
+.zuo2{
+	position: absolute;
+	left: 76px;
+	top: 136px
+}
+.zuo3{
+	position: absolute;
+	left: 76px;
+	top: 183px;
+}
+.zuo2:hover{
+	color: #ff2c18;
+}
+.zuo3:hover{
+	color: #ff2c18;
+}
+.tu1{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 244px;
+	top: 84px
+}
+.tu051{
+	position: absolute;
+	left: 60px;
+	top: 0px;
+}
+.jing1{
+	position: absolute;
+	left: 60px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia1{
+	position: absolute;
+	left:86px;
+	top:228px;
+	font-size:11px;
+}
+.tu2{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 483px;
+	top: 84px
+}
+.tu061{
+	position: absolute;
+	left: 41px;
+	top: 0px; 
+}
+.te1{
+	position: absolute;
+	left: 59px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia2{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu3{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 723px;
+	top: 84px
+}
+.tu071{
+	position: absolute;
+	left: 91px;
+	top: 0px; 
+}
+.jiu1{
+	position: absolute;
+	left: 56px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia3{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu4{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 997px;
+	top: 84px
+}
+.tu081{
+	position: absolute;
+	left: 35px;
+	top: 0px; 
+}
+.song1{
+	position: absolute;
+	left: 56px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia4{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu5{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 244px;
+	top: 355px
+}
+.tu052{
+	position: absolute;
+	left: 60px;
+	top: 0px;
+}
+.jing2{
+	position: absolute;
+	left: 60px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia5{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu6{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 483px;
+	top: 355px
+}
+.tu062{
+	position: absolute;
+	left: 41px;
+	top: 0px; 
+}
+.te2{
+	position: absolute;
+	left: 59px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia6{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu7{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 723px;
+	top: 355px
+}
+.tu072{
+	position: absolute;
+	left: 91px;
+	top: 0px; 
+}
+.jiu2{
+	position: absolute;
+	left: 56px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia7{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.tu8{
+	width: 222px;
+	height: 253px;
+	border: 1px solid #dbdbdb;
+	position: absolute;
+	left: 997px;
+	top: 355px
+}
+.tu082{
+	position: absolute;
+	left: 35px;
+	top: 0px; 
+}
+.song2{
+	position: absolute;
+	left: 56px;
+	top:  197px;
+	color: #a3a3a3;
+	font-size: 17px
+}
+.jia8{
+	position: absolute;
+	left: 86px;
+	top: 228px;
+	font-size: 11px;
+}
+.diceng{
+	background-color:#2e2e2e;
+	height:246px;
+	}
+.di1{
+	width:1200px;
+	height:148px;
+	border-bottom:1px solid #454545;
+}	
+.di1 ul{
+	display:inline-block;
+	margin-left:187px;
+	margin-top:15px;
+}
+.di1 li a{
+	color:#ffffff;
+	font-size:14px;
+	line-height:30px;
+	text-decoration: none;
+}
+.di1 .biao1{
+	margin-left:24px;
+}
+.di2{
+	text-align:center;
+	font-size:14px;
+	color:#9c9c9c;
+	margin-top:24px;
+}
+.haoma{
+	margin-top:20px;
+}
+
+        </style>
+    </head>
+    <body>
+    	<div class="dingceng">
+    		<p class="yi">我的收藏 E族之家手机版</p>
+    		<img src="imgs/01.gif" class="t01">
+    		<p class="number">328203328</p>
+    		<p class="er">扫描加入 欢迎来到E族之家。</p>
+			<a href="a1" class="a1">请登录</a>
+			<div class="shu">|</div>
+			<a href="a2" class="a2">注册</a>
+    	</div>
+    	<div class="zhong">
+    		<img src="imgs/02.gif" class="t02">
+    		<form class="zi">
+            <input type="text" name="guanjianzi" value=" 请输入关键字！" class="gjz">
+            <input type="submit" name="sub" value="搜索" class="sousuo">
+        	</form>
+        	<div class="gou">
+            	<img src="imgs/03.gif" class="t03">
+            	<p class="gouwu">购物车（<a href="#">0</a>）件</p>
+        	</div>
+        	<div class="biaoge">
+            	<ul>
+                	<a href="#"><li>首页</li></a>
+                	<a href="#"><li>E族生活</li></a>
+                	<a href="#"><li>E族服务</li></a>
+                	<a href="#"><li>E族爱心</li></a>
+            	</ul>
+        	</div>
+    	</div>
+    	<div class="xiaozi">
+    		<p class="dang">当前位置：E族爱心>食品</p>
+    		
+    		<div class="tu04"><img src="imgs/04.gif" ></div>
+    		<div class="quan">全部分类</div>
+    		<div class="zuo2">>食品</div>
+    		<div class="zuo3">>生活用品</div>
+    		<div class="tu1">
+    			<div class="tu051"><img src="imgs/05.gif" class="05"></div>
+    			<div class="jing1">精品辣椒100g</div>
+    			<div class="jia1">￥ 90.00</div>
+    		</div>
+    		<div class="tu2">
+    			<div class="tu061"><img src="imgs/06.gif" class="06"></div>
+    			<div class="te1">特级百香果3斤</div>
+    			<div class="jia2">￥ 90.00</div>
+    		</div>
+    		<div class="tu3">
+    			<div class="tu071"><img src="imgs/07.gif"></div>
+    			<div class="jiu1">万威啤酒500ml</div>
+    			<div class="jia3">￥ 90.00</div>
+    		</div>
+    		<div class="tu4">
+    			<div class="tu081"><img src="imgs/08.gif"></div>
+    			<div class="song1">万威啤酒500ml</div>
+    			<div class="jia4">￥ 90.00</div>
+    		</div>
+    		<div class="tu5">
+    			<div class="tu052"><img src="imgs/05.gif"></div>
+    			<div class="jing2">精品辣椒100g</div>
+    			<div class="jia5">￥ 90.00</div>
+    		</div>
+    		<div class="tu6">
+    			<div class="tu062"><img src="imgs/06.gif"></div>
+    			<div class="te2">万威啤酒500ml</div>
+    			<div class="jia6">￥ 90.00</div>
+    		</div>
+    		<div class="tu7">
+    			<div class="tu072"><img src="imgs/07.gif"></div>
+    			<div class="jiu2">万威啤酒500ml</div>
+    			<div class="jia7">￥ 90.00</div>
+    		</div>
+    		<div class="tu8">
+    			<div class="tu082"><img src="imgs/08.gif"></div>
+    			<div class="song2">万威啤酒500ml</div>
+    			<div class="jia8">￥ 90.00</div>
+    		</div>
+    	</div>
+    	<div class="diceng">
+    		<div class="di1">
+    			<ul class="biao1">
+    				<li><a href="#">新手上路</a></li>
+    				<li><a href="#">售后流程</a></li>
+    				<li><a href="#">购物流程</a></li>
+    				<li><a href="#">订购方式</a></li>
+    			</ul>
+    			<ul class="biao2">
+    				<li><a href="#">配送方式</a></li>
+    				<li><a href="#">货到付款区域</a></li>
+    				<li><a href="#">配送支付查询</a></li>
+    				<li><a href="#">支付方式说明</a></li>
+    			</ul>
+    			<ul class="biao3">
+    				<li><a href="#">购物指南</a></li>
+    				<li><a href="#">常见问题</a></li>
+    				<li><a href="#">订购流程</a></li>
+    				<li><a href="#">注册新会员</a></li>
+    			</ul>
+    			<ul class="biao4">
+    				<li><a href="#">售后服务</a></li>
+    				<li><a href="#">退换货原则</a></li>
+    				<li><a href="#">售后服务保证</a></li>
+    				<li><a href="#">换货流程</a></li>
+    			</ul>
+    			<div class="biao5">
+    				<li><a href="#">关于我们</a></li>
+    				<li><a href="#">网络故障报告</a></li>
+    				<li><a href="#">联系我们</a></li>
+    				<li><a href="#">投诉与建议</a></li>
+    			</div>
+    		</div>
+    		<div class="di2">
+    			<p>E族生活|居家维修保养|住宿优惠信息|出行接送|E族活动|E族爱心|积分商城</p>
+    			<p class="haoma">017-2018&nbsp;E族之家&nbsp;版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号</p>
+    		</div>
+		</div>
+    </body>
+</html>
+
+
+
+
+
+
